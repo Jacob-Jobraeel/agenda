@@ -75,10 +75,7 @@ a[href$=".html"]{
     background-color: #6b98f7;
     text-decoration: none;
 }
-body{
-    background: -webkit-linear-gradient(rgb(228, 171, 66),rgb(255,255,255));
-    background: -moz-linear-gradient(rgb(228, 171, 66),rgb(255,255,255));
-}
+
 .other:hover{
     transition-timing-function: 2s ease-in;
     color:#FFFFFF;
