@@ -1,85 +1,23 @@
 body{
-    background-color:rgb(228, 171, 66);
-}
-.allText{
-    margin-left: 2%;
-    margin-right: 2%;
-}
-.agendaheader{
-   color:lavenderblush;
-   font-size: 300%;
-   text-align: center;
+    background-color: rgb(191, 211, 248);
 }
 
-.clubs{
-    font-size: 250%;
-    display:inline-table;
-    inline-size: 20%;   
-    margin-left: 3%;
-}
-
-.clubsText{
-    font-size:70%;
-}
-
-.classes{
-    font-size: 250%;
-    display:inline-table;
-    inline-size: 20%;
-    margin-left: 5%;
-}
-
-.classesText{
-    font-size:70%;
-}
-
-.ibStuff{
+.section{
     display: inline-table;
-    inline-size: 20%;
-    font-size:250%;
-    margin-left:5%
+    inline-size: 15%;
+    margin-inline-start: 5%;
+    font-size: 120%;
 }
 
-.ibText{
-    font-size:70%;
+#library{
+    display: block;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 5%;
+    font-size: 150%;
 }
 
-.labels{
-    color:#000fff;
-    text-decoration: underline;
-}
-a{
-font-size: 80%;
-}
-.other{
-    font-size: 250%;
-    display:inline-table;
-    margin-left: 5%;
-    inline-size: 20%;
-}
-.otherText{
-    font-size: 70%;
-}
-
-#priorityList{
-    font-size: 250%;
-}
-.weekendCheckList{
+.agendaheader{
     text-align: center;
-    font-size: 300%;
-}
-#weekendCheckList{
-    font-size: 400%;
-}
-a[href$=".html"]{
-    background-color: #6b98f7;
-    text-decoration: none;
 }
 
-.other:hover{
-    transition-timing-function: 2s ease-in;
-    color:#FFFFFF;
-    transition-timing-function: 2s ease-in;
-    transform:skew(30deg, 15deg);
-    
-}
